@@ -1,30 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Andrii Domachevskyi | Portfolio</title>
+
+    <meta name="description" content="Portfolio of 2D Game Artist Andrii Domachevskyi">
+
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
     <header class="hero">
 
-        <div class="hero__banner">
+        <div class="hero__media">
 
-            <img src="image/banner/banner.jpg" alt="Banner">
+            <video class="hero__video" autoplay muted loop playsinline poster="images/hero/banner.webp">
+
+                <source src="images/hero/banner.mp4" type="video/mp4">
+
+            </video>
+
+            <div class="hero__overlay"></div>
 
         </div>
 
-        <div class="hero__content">
+        <div class="hero__profile container">
 
             <div class="hero__avatar">
 
-                <img src="image/profile/avatar.jpg" alt="Avatar">
+                <div class="hero__avatar-frame">
+
+                    <img src="images/profile/avatar.webp" alt="Andrii Domachevskyi">
+
+                </div>
 
             </div>
 
-            <div class="hero__info">
+            <div class="hero__content">
 
-                <h1>Andrii Domachevskyi</h1>
+                <h1 class="hero__title">
+                    Andrii Domachevskyi
+                </h1>
 
-                <p>2D Game Artist</p>
+                <p class="hero__subtitle">
+                    2D Game Artist
+                </p>
 
             </div>
 
@@ -32,16 +58,54 @@
 
     </header>
 
-    <nav></nav>
+    <main class="main">
 
-    <main>
+        <section class="content">
 
-        <section class="portfolio"></section>
+            <div class="container">
 
-        <section class="resume"></section>
+                <nav class="tabs" aria-label="Portfolio navigation">
+
+                    <button class="tabs__button tabs__button--active" aria-selected="true">
+
+                        Portfolio
+
+                    </button>
+
+                    <button class="tabs__button" aria-selected="false">
+
+                        Resume
+
+                    </button>
+
+                </nav>
+
+                <section class="portfolio">
+
+                    <div class="portfolio__grid">
+
+                        <article class="portfolio-card">
+
+                            <img class="portfolio-card__image" src="images/portfolio/test.webp" alt="Forest">
+
+                        </article>
+
+                    </div>
+
+                </section>
+
+                <section class="resume" hidden>
+
+                </section>
+
+            </div>
+
+        </section>
 
     </main>
 
-    <footer></footer>
+    <footer class="footer"></footer>
 
 </body>
+
+</html>

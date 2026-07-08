@@ -1,0 +1,15 @@
+.portfolio-card {
+
+    overflow: hidden;
+
+}
+
+.portfolio-card__image {
+
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+
+}
