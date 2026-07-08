@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Forest",
+        "category": "Environment",
+        "description": "A black-and-white manga-style coastal landscape featuring rocky cliffs, windswept pines, and a quiet shoreline.",
+        "image": "images/portfolio/forest.webp",
+        "featured": false
+    },
+    {
+        "id": 2,
+        "title": "Grave",
+        "category": "Environment",
+        "description": "A detailed black-and-white manga-style illustration of a quiet Japanese shrine surrounded by bamboo and ancient stone monuments.",
+        "image": "images/portfolio/grave.webp",
+        "featured": false
+    },
+    {
+        "id": 3,
+        "title": "Church",
+        "category": "Environment",
+        "description": "A detailed black-and-white manga-style illustration of a historic Eastern Orthodox church surrounded by a peaceful park.",
+        "image": "images/portfolio/church.webp",
+        "featured": false
+    },
+    {
+        "id": 4,
+        "title": "Mattise",
+        "category": "People",
+        "description": "A black-and-white manga-style portrait study featuring two expressive female characters with clean line work and subtle shading.",
+        "image": "images/portfolio/matisse.webp",
+        "featured": false
+    },
+    {
+        "id": 5,
+        "title": "Female Characters",
+        "category": "People",
+        "description": "A detailed black-and-white manga-style illustration featuring two expressive female character portraits.",
+        "image": "images/portfolio/female_characters.webp",
+        "featured": false
+    },
+    {
+        "id": 6,
+        "title": "Girls",
+        "category": "People",
+        "description": "A detailed manga-style illustration of two female characters rendered with clean lines and subtle cross-hatching.",
+        "image": "images/portfolio/hot_girls.webp",
+        "featured": false
+    },
+    {
+        "id": 7,
+        "title": "Isometric building",
+        "category": "Isometric",
+        "description": "A detailed black-and-white illustration of a modern modular house with solar panels, viewed from an isometric perspective.",
+        "image": "images/portfolio/base.webp",
+        "featured": false
+    },
+    {
+        "id": 8,
+        "title": "Male character",
+        "category": "People",
+        "description": "A manga-style concept sketch depicting a mysterious figure in a straw hat equipped with a mechanical respirator.",
+        "image": "images/portfolio/rudolf.webp",
+        "featured": false
+    },
+    {
+        "id": 9,
+        "title": "Character standing on a rock",
+        "category": "People",
+        "description": "Original manga-inspired character concept art depicting a lone traveler wearing a straw hat and a futuristic respirator.",
+        "image": "images/portfolio/title_page.webp",
+        "featured": false
+    }
+]
