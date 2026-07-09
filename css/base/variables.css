@@ -1,0 +1,40 @@
+:root {
+
+    --container-width: 1100px;
+
+    --color-bg: #efefef;
+    --color-surface: #ffffff;
+
+    --color-text: #1d1d1d;
+    --color-secondary: #666;
+
+    --radius-large: 24px;
+    --radius-medium: 16px;
+
+    --shadow-card:
+        0 10px 30px rgba(0, 0, 0, .12);
+
+    --transition: .25s ease;
+
+    --hero-height: clamp(160px, 22vw, 200px);
+
+    --hero-avatar-size: clamp(120px, 15vw, 170px);
+
+    --hero-avatar-border: 0px;
+
+    --color-tab: #8d8d8d;
+
+    --color-tab-active: #222;
+
+    --duration-fast: 200ms;
+    --duration-normal: 300ms;
+    --duration-slow: 500ms;
+
+    --easing-standard: ease;
+
+    --space-l: 1.5rem;
+    --card-hover-scale: 1.03;
+    --card-animation-offset: 14px;
+    --portfolio-column-width: 390px;
+
+}
