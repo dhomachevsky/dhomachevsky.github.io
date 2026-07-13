@@ -1,0 +1,7 @@
+.portfolio__grid {
+
+    columns: 2;
+
+    column-gap: 1.5rem;
+
+}

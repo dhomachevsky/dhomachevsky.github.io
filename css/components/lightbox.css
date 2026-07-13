@@ -1,0 +1,202 @@
+.lightbox {
+
+    position: fixed;
+    inset: 0;
+
+    display: grid;
+    place-items: center;
+
+    padding: 2rem;
+
+    z-index: 1000;
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    transition:
+        opacity var(--duration-normal),
+        visibility var(--duration-normal);
+
+    pointer-events: none;
+
+}
+
+.lightbox__backdrop {
+
+    position: absolute;
+
+    inset: 0;
+
+    background: rgba(0, 0, 0, .85);
+
+    opacity: 0;
+
+    transition:
+
+        opacity var(--duration-normal);
+
+}
+
+.lightbox__dialog {
+
+    position: relative;
+
+    z-index: 1;
+
+    width: min(95vw, 1600px);
+
+    max-height: 90vh;
+
+    display: grid;
+
+    grid-template-columns:
+
+        minmax(0, 2fr) 360px;
+
+    gap: 1.5rem;
+
+    background: var(--color-surface);
+
+    border-radius: 1rem;
+
+    overflow: hidden;
+
+    transform: scale(.96);
+
+    transition:
+
+        transform var(--duration-normal);
+
+}
+
+@media (max-width:768px) {
+
+    .lightbox__dialog {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+.lightbox__image {
+
+    width: 100%;
+
+    height: 100%;
+
+    max-height: 90vh;
+
+    object-fit: contain;
+
+    display: block;
+
+}
+
+.lightbox__content {
+
+    padding: 4rem 1.5rem 1.5rem;
+
+}
+
+.lightbox--open {
+
+    opacity: 1;
+
+    visibility: visible;
+
+    pointer-events: auto;
+
+}
+
+.lightbox__close {
+
+    position: absolute;
+
+    top: 1rem;
+    right: 1rem;
+
+    z-index: 2;
+
+}
+
+.lightbox--open .lightbox__dialog {
+
+    transform: scale(1);
+
+}
+
+.lightbox--open .lightbox__backdrop {
+
+    opacity: 1;
+
+}
+
+.lightbox__category {
+
+    margin-bottom: .75rem;
+
+}
+
+.lightbox__title {
+
+    line-height: 1;
+
+    margin-bottom: .75rem;
+
+}
+
+.lightbox__close {
+
+    position: absolute;
+
+    top: 1rem;
+    right: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 2.5rem;
+    height: 2.5rem;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, .9);
+
+    color: #222;
+
+    cursor: pointer;
+
+    transition:
+        background .25s ease,
+        transform .25s ease,
+        box-shadow .25s ease;
+
+}
+
+.lightbox__close:hover {
+
+    background: white;
+
+    transform: scale(1.08);
+
+    box-shadow: 0 6px 18px rgba(0,0,0,.15);
+
+}
+
+.lightbox__close:active {
+
+    transform: scale(.96);
+
+}
+
+.lightbox__close:focus-visible {
+
+    outline: 2px solid var(--color-accent);
+
+    outline-offset: 2px;
+
+}

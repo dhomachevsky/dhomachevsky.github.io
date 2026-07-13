@@ -1,0 +1,60 @@
+{
+    "contact": {
+        "email": "dhomachevsky@gmail.com",
+        "telegram": "https://t.me/dhomachevsky",
+        "location": "Ukraine"
+    },
+    "education": {
+        "degree": "ARTIST",
+        "school": "Local College of Art and Music",
+        "period": "2008–2012"
+    },
+    "skills": [
+        "Character Design",
+        "Concept Art",
+        "Digital Illustration",
+        "2D Art",
+        "Visual Development",
+        "Sprite Creation",
+        "Icon Design",
+        "Prop Design",
+        "Creature Design",
+        "Costume Design",
+        "Environment Sketching",
+        "Pixel Art",
+        "Promotional Illustration"
+    ],
+    "software": [
+        "Adobe Suite",
+        "Aseprite",
+        "Autodesk Apps",
+        "Procreate",
+        "PicoCAD",
+        "SolidWorks"
+    ],
+    "summary": "Passionate 2D Game Artist with professional experience in graphic design and content management, complemented by hands-on creation of visual assets for games. Skilled in character design, digital illustration, sprites, icons, and production-ready artwork, with a strong eye for visual storytelling, composition, and style consistency.",
+    "experience": [
+        {
+            "position": "Graphic Designer & Content Manager",
+            "company": "PJSC TERA",
+            "period": "2017 – Present",
+            "responsibilities": [
+                "Designed a wide range of digital and print marketing materials while maintaining consistent brand identity across multiple platforms.",
+                "Created illustrations, icons, infographics, and other visual assets for websites, presentations, and promotional campaigns.",
+                "Managed website content and visual materials, ensuring accuracy, consistency, and timely updates.",
+                "Collaborated with marketing, sales, and technical teams to develop engaging visual content and support business objectives."
+            ]
+        },
+        {
+            "position": "Graphic Designer",
+            "company": "SmartAVI Inc.",
+            "period": "2017 – 2026",
+            "responsibilities": [
+                "Designed marketing materials, product graphics, technical illustrations, and digital assets for print and online media.",
+                "Produced high-quality visual content in collaboration with product managers and marketing teams.",
+                "Maintained brand consistency across product documentation, advertisements, presentations, and promotional materials.",
+                "Prepared production-ready artwork while managing multiple projects and meeting tight deadlines."
+            ]
+        }
+    ]
+}
