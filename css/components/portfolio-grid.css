@@ -1,5 +1,0 @@
-.portfolio__grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(var(--portfolio-column-width), 1fr));
-    gap: 1.5rem;
-}
