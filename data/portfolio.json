@@ -57,6 +57,14 @@
     },
     {
         "id": 8,
+        "title": "Isometric oil derrick",
+        "category": "Isometric",
+        "description": "A detailed black-and-white illustration of an industrial oil derrick with steel framework, elevated platforms, storage tanks, and utility buildings, viewed from an isometric perspective.",
+        "image": "images/portfolio/oil_derrick.webp",
+        "featured": false
+    },
+    {
+        "id": 9,
         "title": "Male character",
         "category": "People",
         "description": "A manga-style concept sketch depicting a mysterious figure in a straw hat equipped with a mechanical respirator.",
@@ -64,7 +72,7 @@
         "featured": false
     },
     {
-        "id": 9,
+        "id": 10,
         "title": "Character standing on a rock",
         "category": "People",
         "description": "Original manga-inspired character concept art depicting a lone traveler wearing a straw hat and a futuristic respirator.",
