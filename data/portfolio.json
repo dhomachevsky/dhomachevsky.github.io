@@ -33,14 +33,22 @@
     },
     {
         "id": 5,
-        "title": "Female Characters",
+        "title": "A girl looking behind",
         "category": "People",
-        "description": "A detailed black-and-white manga-style illustration featuring two expressive female character portraits.",
-        "image": "images/portfolio/female_characters.webp",
+        "description": "A detailed black-and-white manga-style illustration featuring a graceful female character with long flowing hair, expressive eyes, and a calm, elegant expression, shown in a three-quarter view.",
+        "image": "images/portfolio/girl_looking_behind.webp",
         "featured": false
     },
     {
         "id": 6,
+        "title": "An angry girl",
+        "category": "People",
+        "description": "A detailed black-and-white manga-style illustration featuring a confident female character with braided hair, sharp expressive eyes, and a composed, slightly enigmatic expression, shown in a frontal portrait view.",
+        "image": "images/portfolio/angry_girl.webp",
+        "featured": false
+    },
+    {
+        "id": 7,
         "title": "Girls",
         "category": "People",
         "description": "A detailed manga-style illustration of two female characters rendered with clean lines and subtle cross-hatching.",
@@ -48,7 +56,7 @@
         "featured": false
     },
     {
-        "id": 7,
+        "id": 8,
         "title": "Isometric building",
         "category": "Isometric",
         "description": "A detailed black-and-white illustration of a modern modular house with solar panels, viewed from an isometric perspective.",
@@ -56,7 +64,7 @@
         "featured": false
     },
     {
-        "id": 8,
+        "id": 9,
         "title": "Isometric oil derrick",
         "category": "Isometric",
         "description": "A detailed black-and-white illustration of an industrial oil derrick with steel framework, elevated platforms, storage tanks, and utility buildings, viewed from an isometric perspective.",
@@ -64,7 +72,7 @@
         "featured": false
     },
     {
-        "id": 9,
+        "id": 10,
         "title": "Male character",
         "category": "People",
         "description": "A manga-style concept sketch depicting a mysterious figure in a straw hat equipped with a mechanical respirator.",
@@ -72,7 +80,7 @@
         "featured": false
     },
     {
-        "id": 10,
+        "id": 11,
         "title": "Character standing on a rock",
         "category": "People",
         "description": "Original manga-inspired character concept art depicting a lone traveler wearing a straw hat and a futuristic respirator.",
