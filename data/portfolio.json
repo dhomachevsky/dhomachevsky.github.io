@@ -42,7 +42,6 @@
     {
         "id": 6,
         "title": "Girls",
-        "type": "drawings",
         "description": "A detailed manga-style illustration of two female characters rendered with clean lines and subtle cross-hatching.",
         "image": "images/portfolio/drawing/hot_girls.webp",
         "featured": false
