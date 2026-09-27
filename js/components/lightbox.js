@@ -81,8 +81,6 @@ function renderLightbox(item) {
 
     elements.title.textContent = item.title;
 
-    elements.category.textContent = item.category;
-
     elements.description.textContent = item.description;
 
 }

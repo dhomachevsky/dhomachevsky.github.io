@@ -2,89 +2,353 @@
     {
         "id": 1,
         "title": "Forest",
-        "category": "Environment",
+        "type": "drawings",
         "description": "A black-and-white manga-style coastal landscape featuring rocky cliffs, windswept pines, and a quiet shoreline.",
-        "image": "images/portfolio/forest.webp",
+        "image": "images/portfolio/drawing/forest.webp",
         "featured": false
     },
     {
         "id": 2,
         "title": "Grave",
-        "category": "Environment",
+        "type": "drawings",
         "description": "A detailed black-and-white manga-style illustration of a quiet Japanese shrine surrounded by bamboo and ancient stone monuments.",
-        "image": "images/portfolio/grave.webp",
+        "image": "images/portfolio/drawing/grave.webp",
         "featured": false
     },
     {
         "id": 3,
         "title": "Church",
-        "category": "Environment",
+        "type": "drawings",
         "description": "A detailed black-and-white manga-style illustration of a historic Eastern Orthodox church surrounded by a peaceful park.",
-        "image": "images/portfolio/church.webp",
+        "image": "images/portfolio/drawing/church.webp",
         "featured": false
     },
     {
         "id": 4,
         "title": "Mattise",
-        "category": "People",
+        "type": "drawings",
         "description": "A black-and-white manga-style portrait study featuring two expressive female characters with clean line work and subtle shading.",
-        "image": "images/portfolio/matisse.webp",
+        "image": "images/portfolio/drawing/matisse.webp",
         "featured": false
     },
     {
         "id": 5,
         "title": "A girl looking behind",
-        "category": "People",
+        "type": "drawings",
         "description": "A detailed black-and-white manga-style illustration featuring a graceful female character with long flowing hair, expressive eyes, and a calm, elegant expression, shown in a three-quarter view.",
-        "image": "images/portfolio/girl_looking_behind.webp",
+        "image": "images/portfolio/drawing/female_characters.webp",
         "featured": false
     },
     {
         "id": 6,
-        "title": "An angry girl",
-        "category": "People",
-        "description": "A detailed black-and-white manga-style illustration featuring a confident female character with braided hair, sharp expressive eyes, and a composed, slightly enigmatic expression, shown in a frontal portrait view.",
-        "image": "images/portfolio/angry_girl.webp",
+        "title": "Girls",
+        "type": "drawings",
+        "description": "A detailed manga-style illustration of two female characters rendered with clean lines and subtle cross-hatching.",
+        "image": "images/portfolio/drawing/hot_girls.webp",
         "featured": false
     },
     {
         "id": 7,
-        "title": "Girls",
-        "category": "People",
-        "description": "A detailed manga-style illustration of two female characters rendered with clean lines and subtle cross-hatching.",
-        "image": "images/portfolio/hot_girls.webp",
+        "title": "Isometric building",
+        "type": "drawings",
+        "description": "A detailed black-and-white illustration of a modern modular house with solar panels, viewed from an isometric perspective.",
+        "image": "images/portfolio/drawing/base.webp",
         "featured": false
     },
     {
         "id": 8,
-        "title": "Isometric building",
-        "category": "Isometric",
-        "description": "A detailed black-and-white illustration of a modern modular house with solar panels, viewed from an isometric perspective.",
-        "image": "images/portfolio/base.webp",
+        "title": "Isometric oil derrick",
+        "type": "drawings",
+        "description": "A detailed black-and-white illustration of an industrial oil derrick with steel framework, elevated platforms, storage tanks, and utility buildings, viewed from an isometric perspective.",
+        "image": "images/portfolio/drawing/oil_derrick.webp",
         "featured": false
     },
     {
         "id": 9,
-        "title": "Isometric oil derrick",
-        "category": "Isometric",
-        "description": "A detailed black-and-white illustration of an industrial oil derrick with steel framework, elevated platforms, storage tanks, and utility buildings, viewed from an isometric perspective.",
-        "image": "images/portfolio/oil_derrick.webp",
+        "title": "Male character",
+        "type": "drawings",
+        "description": "A manga-style concept sketch depicting a mysterious figure in a straw hat equipped with a mechanical respirator.",
+        "image": "images/portfolio/drawing/rudolf.webp",
         "featured": false
     },
     {
         "id": 10,
-        "title": "Male character",
-        "category": "People",
-        "description": "A manga-style concept sketch depicting a mysterious figure in a straw hat equipped with a mechanical respirator.",
-        "image": "images/portfolio/rudolf.webp",
+        "title": "Character standing on a rock",
+        "type": "drawings",
+        "description": "Original manga-inspired character concept art depicting a lone traveler wearing a straw hat and a futuristic respirator.",
+        "image": "images/portfolio/drawing/title_page.webp",
         "featured": false
     },
     {
         "id": 11,
-        "title": "Character standing on a rock",
-        "category": "People",
-        "description": "Original manga-inspired character concept art depicting a lone traveler wearing a straw hat and a futuristic respirator.",
-        "image": "images/portfolio/title_page.webp",
+        "title": "Video Wall",
+        "type": "vector",
+        "description": "A clean technical illustration showing a multi-display video wall system with media players, audio equipment, and color-coded HDMI, audio, and RS232 connections.",
+        "image": "images/portfolio/vector/videowall.webp",
+        "featured": false
+    },
+    {
+        "id": 12,
+        "title": "KVM Switch",
+        "type": "vector",
+        "description": "A clean technical illustration of a KVM switch system connecting computers, displays, peripherals, and audio equipment through color-coded video, USB, audio, and control signals.",
+        "image": "images/portfolio/vector/stc100.webp",
+        "featured": false
+    },
+    {
+        "id": 13,
+        "title": "KVM Matrix",
+        "type": "vector",
+        "description": "A clean technical illustration showing a centralized KVM matrix system connecting multiple computers, operator workstations, displays, and network equipment through color-coded video, audio, USB, and link signals.",
+        "image": "images/portfolio/vector/switch.webp",
+        "featured": false
+    },
+    {
+        "id": 14,
+        "title": "P2P Transmission",
+        "type": "vector",
+        "description": "A clean technical illustration showing a P2P transmission system with multiple transmitters and receivers connecting displays, audio devices, and peripherals through a cloud-based network.",
+        "image": "images/portfolio/vector/cloud.webp",
+        "featured": false
+    },
+    {
+        "id": 15,
+        "title": "KVM Extender",
+        "type": "vector",
+        "description": "A clean technical illustration showing a KVM extension system connecting computers, transmitters, receivers, displays, and a network switch through color-coded video, USB, and link signals.",
+        "image": "images/portfolio/vector/controller.webp",
+        "featured": false
+    },
+    {
+        "id": 16,
+        "title": "Data Logger",
+        "type": "vector",
+        "description": "A technical network diagram showing a data logging system with remote users, VPN access, local networks, Zigbee sensors, Ethernet connectivity, and an uninterruptible power supply.",
+        "image": "images/portfolio/vector/logger.webp",
+        "featured": false
+    },
+    {
+        "id": 17,
+        "title": "Warehouse Monitoring",
+        "type": "vector",
+        "description": "An isometric technical illustration of a high-density warehouse storage system with stacked pallets, industrial racks, and monitored safety equipment.",
+        "image": "images/portfolio/vector/storage.webp",
+        "featured": false
+    },
+    {
+        "id": 18,
+        "title": "Cold Chain Monitoring",
+        "type": "vector",
+        "description": "A technical illustration showing a connected cold chain monitoring system with 2G sensors, refrigerated transport, cloud services, remote users, and database infrastructure.",
+        "image": "images/portfolio/vector/transport.webp",
+        "featured": false
+    },
+    {
+        "id": 19,
+        "title": "Cold Storage Monitoring",
+        "type": "vector",
+        "description": "A technical illustration showing a connected cold storage monitoring system with 2G sensors, warehouse equipment, cloud services, remote users, and database infrastructure.",
+        "image": "images/portfolio/vector/storage2.webp",
+        "featured": false
+    },
+    {
+        "id": 20,
+        "title": "Refrigeration Monitoring",
+        "type": "vector",
+        "description": "A technical illustration showing temperature monitoring devices installed across refrigeration units, cold storage equipment, and insulated chambers.",
+        "image": "images/portfolio/vector/refridgerator.webp",
+        "featured": false
+    },
+    {
+        "id": 21,
+        "title": "Oil Derrick",
+        "type": "vector",
+        "description": "A bold isometric illustration of an industrial oil derrick surrounded by storage tanks, platforms, stairways, and processing structures against a vivid red background.",
+        "image": "images/portfolio/vector/oil-derrick.webp",
+        "featured": false
+    },
+    {
+        "id": 22,
+        "title": "Pixel Flags",
+        "type": "pixel-art",
+        "description": "A colorful pixel art collection of national flags arranged in a structured grid, using bold colors, simplified shapes, and retro-inspired shading.",
+        "image": "images/portfolio/pixel-art/flags.webp",
+        "featured": false
+    },
+    {
+        "id": 23,
+        "title": "Japan Map",
+        "type": "pixel-art",
+        "description": "A minimalist pixel art map of Japan featuring bright green islands against a vivid blue background with retro-style shading.",
+        "image": "images/portfolio/pixel-art/nihonchizu.webp",
+        "featured": false
+    },
+    {
+        "id": 24,
+        "title": "Japan Topography",
+        "type": "pixel-art",
+        "description": "A detailed pixel art map of Japan featuring stylized terrain, mountains, forests, and coastlines rendered in warm earthy tones against a deep blue sea.",
+        "image": "images/portfolio/pixel-art/nihonchizuchikei.webp",
+        "featured": false
+    },
+    {
+        "id": 25,
+        "title": "Hanabi",
+        "type": "pixel-art",
+        "description": "A retro pixel art night scene featuring colorful fireworks illuminating a city skyline and a solitary figure standing beneath the dark sky.",
+        "image": "images/portfolio/pixel-art/hanabi.webp",
+        "featured": false
+    },
+    {
+        "id": 26,
+        "title": "Yahiko Shrine",
+        "type": "pixel-art",
+        "description": "A detailed pixel art illustration of a traditional Japanese shrine featuring ornate wooden architecture, sweeping tiled roofs, and warm golden decorative elements against a dark night sky.",
+        "image": "images/portfolio/pixel-art/yahikojinja.webp",
+        "featured": false
+    },
+    {
+        "id": 27,
+        "title": "Yatai",
+        "type": "pixel-art",
+        "description": "A cozy pixel art scene of a traditional Japanese food stall beneath cherry blossoms, with a solitary figure standing nearby on a quiet winter evening.",
+        "image": "images/portfolio/pixel-art/yatai.webp",
+        "featured": false
+    },
+    {
+        "id": 28,
+        "title": "Mountain Shrine",
+        "type": "pixel-art",
+        "description": "A detailed pixel art scene of a small wooden shrine entrance nestled against a moss-covered stone wall and dense forest.",
+        "image": "images/portfolio/pixel-art/mine-entrance.webp",
+        "featured": false
+    },
+    {
+        "id": 29,
+        "title": "Mountain Cabin",
+        "type": "pixel-art",
+        "description": "A monochrome isometric pixel art illustration of a rustic wooden cabin with a steep roof, chimney, porch, and a solitary figure standing outside.",
+        "image": "images/portfolio/pixel-art/cabin.webp",
+        "featured": false
+    },
+    {
+        "id": 30,
+        "title": "Save the Humans",
+        "type": "pixel-art",
+        "description": "A retro pixel art game screen featuring a lone planet drifting through space, colorful stars, and a row of futuristic alien characters beneath a bold mission title.",
+        "image": "images/portfolio/pixel-art/invader.webp",
+        "featured": false
+    },
+    {
+        "id": 31,
+        "title": "Industrial Technology",
+        "type": "design",
+        "description": "A bold promotional graphic showcasing precision machining processes, including turning, milling, erosion cutting, laser welding, and argon welding.",
+        "image": "images/portfolio/design/panel.webp",
+        "featured": false
+    },
+    {
+        "id": 32,
+        "title": "Engineering Services",
+        "type": "design",
+        "description": "A dynamic industrial collage showcasing precision manufacturing services, sensor production, custom components, machining, mold making, casting, control systems, and advanced welding technologies.",
+        "image": "images/portfolio/design/flyer-title.webp",
+        "featured": false
+    },
+    {
+        "id": 33,
+        "title": "Manufacturing Capabilities",
+        "type": "design",
+        "description": "A professional industrial brochure showcasing CNC machining equipment, laser and EDM systems, injection molding machinery, and precision manufacturing capabilities.",
+        "image": "images/portfolio/design/flyer-text.webp",
+        "featured": false
+    },
+    {
+        "id": 34,
+        "title": "Wireless Monitoring System",
+        "type": "design",
+        "description": "A professional cover design for a wireless monitoring system using GSM and WiFi loggers for indoor environments, featuring a warehouse and monitoring device.",
+        "image": "images/portfolio/design/title-page.webp",
+        "featured": false
+    },
+    {
+        "id": 35,
+        "title": "Humidity and Temperature Monitoring",
+        "type": "design",
+        "description": "A professional technical brochure page presenting a wireless humidity and temperature monitoring system with an application diagram, remote access, cloud infrastructure, and system advantages.",
+        "image": "images/portfolio/design/page.webp",
+        "featured": false
+    },
+    {
+        "id": 36,
+        "title": "SPS-4000",
+        "type": "design",
+        "description": "A clean product presentation for a 4K60 HDMI presentation switcher featuring four inputs, two outputs, and a compact professional hardware design.",
+        "image": "images/portfolio/design/rcs100.webp",
+        "featured": false
+    },
+    {
+        "id": 37,
+        "title": "P2P KVM Series",
+        "type": "design",
+        "description": "A clean product presentation showcasing a P2P KVM-over-IP extender and matrix system with single-head, fiber, and CATx connectivity.",
+        "image": "images/portfolio/design/banner.webp",
+        "featured": false
+    },
+    {
+        "id": 38,
+        "title": "Business Card",
+        "type": "design",
+        "description": "A modern corporate business card design for iPGARD featuring a bold black-and-white layout, red accents, contact information, and a clean geometric visual identity.",
+        "image": "images/portfolio/design/card.webp",
+        "featured": false
+    },
+    {
+        "id": 39,
+        "title": "Manga Artist",
+        "type": "design",
+        "description": "A monochrome manga-style business card featuring an intimate illustrated scene of two characters alongside handwritten artist branding and contact information.",
+        "image": "images/portfolio/design/drawing.webp",
+        "featured": false
+    },
+    {
+        "id": 40,
+        "title": "Composer Poster",
+        "type": "design",
+        "description": "A dramatic concert poster featuring a composer at a piano, bold Ukrainian typography, and a dark contemporary musical atmosphere.",
+        "image": "images/portfolio/design/ivan.webp",
+        "featured": false
+    },
+    {
+        "id": 41,
+        "title": "Generations in Music",
+        "type": "design",
+        "description": "A vibrant concert poster for a Ukrainian classical music project featuring bold red typography, a soft green background, and detailed event information.",
+        "image": "images/portfolio/design/ad.webp",
+        "featured": false
+    },
+    {
+        "id": 42,
+        "title": "Radio Krasuli",
+        "type": "design",
+        "description": "A vibrant concert poster combining live jazz performance, theatrical imagery, colorful performers, and bold typography for a festive evening event.",
+        "image": "images/portfolio/design/radio.webp",
+        "featured": false
+    },
+    {
+        "id": 43,
+        "title": "Cash Desk — Opening Hours",
+        "type": "design",
+        "description": "A minimalist black-and-white informational poster featuring decorative ornamental elements, a layered border, and distinctive decorative typography. The main focus is a clearly structured cash desk opening-hours schedule.",
+        "image": "images/portfolio/design/schedule.webp",
+        "featured": false
+    },
+    {
+        "id": 44,
+        "title": "KLX Series KVM Over IP",
+        "type": "design",
+        "description": "A professional product presentation page for the KLX Series KVM Over IP system. The layout combines product photography, technical diagrams, feature highlights, and explanatory text to present HDMI and DisplayPort KVM extenders, fiber and CATx connectivity, remote management, scalability, reliability, and SAVIGATE KVM matrix management.",
+        "image": "images/portfolio/design/klx.webp",
         "featured": false
     }
 ]
